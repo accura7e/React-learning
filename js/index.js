@@ -1,17 +1,20 @@
 
-// // ReactDOM.render(React.createElement('input', {
-// //     placeholder: 'Help text',
-// //     onClick: () => console.log('clicked'),
-// //     onMouseEnter: () => console.log('Mouse Over')
-// // }), document.querySelector('#app'))
+ReactDOM.render(React.createElement('input', {
+    placeholder: 'Help text',
+    onClick: () => console.log('clicked'),
+    onMouseEnter: () => console.log('Mouse Over')
+}), document.querySelector('#app'))
 
-// const inputClick = () => console.log('clicked')
-// const mouseOver = () => console.log('MouseOver')
+const inputClick = () => console.log('clicked')
+const mouseOver = () => console.log('MouseOver')
 
-// const elements = <input placeholder="dsklafas" onClick={inputClick} onMouseEnter={mouseOver} />
-// const app =  document.querySelector('#app')
-// ReactDOM.render(elements, app)
+const elements = <input placeholder="dsklafas" onClick={inputClick} onMouseEnter={mouseOver} />
+const app =  document.querySelector('#app')
+ReactDOM.render(elements, app)
 
+const el = dsafas
+
+el.to
 
 function toWeirdCase(string){
   const newArr = Array.from(string)
@@ -24,4 +27,7 @@ function toWeirdCase(string){
  
 }
 
-console.log(toWeirdCase("sakjlf"))
+
+alert(safas)
+
+// console.log(toWeirdCase("sakjlf"))
